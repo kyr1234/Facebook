@@ -1,0 +1,58 @@
+.Messenger{
+  background-color: white;
+  z-index: 50px;
+  margin-top: 30px;
+  padding: 15px;
+border-radius: 8px;
+width: 100%;
+height: auto;
+}
+
+.header{
+  display: flex;
+  flex: 1;
+  border-bottom: 1px solid black;
+  padding-bottom: 10px;
+  padding: 15px;
+  z-index: 10px;
+ 
+}
+
+.header>form>input{
+  background-color: #eff2f5;
+  height:25px ;
+  justify-content: center;
+  align-items: center;
+margin: 0px 10px;
+  outline-width: 0px;
+  border: none;
+  padding: 5px 20px;
+  border-radius: 999px;
+}
+
+
+.option_select{
+  display: flex;
+  justify-content: space-between;
+}
+
+.belowmsg{
+ padding: 25px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header >form>button{
+  display: none;
+}
+
+.header>form> comment{
+  width: 90%;
+}
+
+.header 
+
+.option_select:hover{
+  background-color: #eff2f5;
+
+}
