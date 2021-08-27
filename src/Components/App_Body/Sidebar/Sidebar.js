@@ -1,7 +1,7 @@
 import React from 'react';
 import './Sidebar.css';
+import {Avatar} from '@material-ui/core';
 import SideBarRow from './SideBarRow.js';
-import Avatar from '@material-ui/core/Avatar';
 import Hospital from '@material-ui/icons/LocalHospitalOutlined';
 import Flag from '@material-ui/icons/FlagOutlined';
 import Contacts from '@material-ui/icons/SupervisedUserCircle';

@@ -1,5 +1,5 @@
 import React from 'react';
-import '/SideBarRow.css';
+import '/Sidebar.css';
 
 //src is sometimes provided if the there is no icon provided
 
