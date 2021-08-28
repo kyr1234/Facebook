@@ -1,4 +1,4 @@
-import React from 'react';
+import React,{useState} from 'react';
 import './Messenger.css';
 import Avatar from '@material-ui/core/Avatar';
 import VideocamIcon from '@material-ui/icons/Videocam';
@@ -7,8 +7,12 @@ import EmojiEmotionsOutlinedIcon from '@material-ui/icons/EmojiEmotionsOutlined'
 
 function Messenger() {
 
+const [input,setInput]=useState("");
+const [img,setimg]=useState("");
 const handlesubmit=(e)=>{
   e.preventDefault();
+  setInput("");
+  setimg("");
 }
 
   return (
@@ -18,8 +22,14 @@ const handlesubmit=(e)=>{
 <Avatar/>
 
 <form>
-<input className='comment' placeholder='WHAT IS IN YOUR MIND SAY ? YUG KHOKHAR '/>
-<input placeholder='IMAGE URL (optional)'className='img'/>
+<input
+value={input}
+onChange={(e)=>setInput(e.target.value)}
+ className='comment' placeholder='WHAT IS IN YOUR MIND  '/>
+<input
+value={img}
+onChange={(e)=>setimg(e.target.value)}
+ placeholder='IMAGE URL (optional)'className='img'/>
 
 <button type='submit' onClick={handlesubmit}>HIDDEN BUTTON</button>
 </form>

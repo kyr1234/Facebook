@@ -4,19 +4,26 @@ import Sidebar from './Components/Sidebar.js';
 import Widget from './Components/Widget.js';
 import Data from './Components/Data.js';
 import './App.css';
+import Login from './Components/Login';
 
 function App() {
+
+  const user="null";
   return (
     <div className="App">
-         <Header/>
+{!user ?(
+  <h1><Login/></h1>
+): (
+   <>
+       <Header/>
        <div className='App_Body'>
        <Sidebar/>
        <Data/>
-       
+       <Widget/>
        </div>
-
-
-    </div>
+  </>
+)}
+</div>
   );
 }
 

@@ -1,0 +1,10 @@
+.Widget{
+  display: flex;
+  flex-direction: column;
+}
+
+.image{
+  width: 180px;
+  object-fit: contain;
+  height: 150px;
+}

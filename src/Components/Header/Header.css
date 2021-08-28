@@ -1,6 +1,6 @@
 .Header{
   display: flex;
-justify-content: space-between;
+  justify-content: space-between;
   z-index: 100;
   overflow-x: scroll;
   position:sticky;
@@ -80,9 +80,9 @@ color: #2e81f4;
 
 
 .header_option > .MuiSvgIcon-root{
-width: 50px;
+width: 40px;
 color: white;
-height: 50%;
+height: 30%;
 margin-bottom: 10px;
 }
 .header-right{
@@ -107,7 +107,7 @@ flex: 0.3;
 }
 
 .info{
-  margin-right: 80px;
+  margin-right: 10px;
 }
 
 .info > h4{
@@ -121,7 +121,7 @@ padding-top:5px;
 }
 
 .icon >.MuiSvgIcon-root{
-  width: 80px;
+  width: 30px;
 }
 
 .header-right >ItemButton{
