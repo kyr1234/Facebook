@@ -8,11 +8,11 @@ import Login from './Components/Login';
 
 function App() {
 
-  const user="null";
+  const user=null
   return (
     <div className="App">
 {!user ?(
-  <h1><Login/></h1>
+  <Login/>
 ): (
    <>
        <Header/>

@@ -11,6 +11,7 @@
     "es7-react-js-snippets": "^3.2.0",
     "firebase": "^9.0.0",
     "firebase-tools": "^9.16.6",
+    "firestore": "^1.1.6",
     "html-css-ppt": "^5.0.0",
     "material": "^0.4.3",
     "react": "^16.12.0",
